@@ -79,7 +79,7 @@ logo = color.HEADER + '''
 '''
 print(logo)
 
-host = input("Digite o dominio alvo: Exemplo:cyberddon.com = ")
+host = input("Digite o dominio alvo: Exemplo:cyberddon.com.br = ")
 for sublist in subdomainlist:
     try:
        hosts = str(sublist) + "." + str(host)
